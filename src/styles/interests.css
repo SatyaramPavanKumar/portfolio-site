@@ -1,0 +1,47 @@
+.interests-section {
+  min-height: 100vh;
+  padding: 100px 40px;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+}
+
+.interests-title {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 60px;
+}
+
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.interest-card {
+  padding: 28px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(6px);
+  transition: all 0.3s ease;  
+  cursor: pointer;
+}
+
+.interest-card h3 {
+  color: #60a5fa;
+  margin-bottom: 14px;
+}
+
+.interest-card p {
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .interests-section {
+    padding: 80px 20px;
+  }
+
+  .interests-title {
+    font-size: 32px;
+  }
+}

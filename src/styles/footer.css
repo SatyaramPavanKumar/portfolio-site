@@ -1,0 +1,39 @@
+.footer {
+  padding: 50px 20px;
+  background: #020617;
+  color: white;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.footer-content p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.footer-links {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: #60a5fa;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #94a3b8;
+}

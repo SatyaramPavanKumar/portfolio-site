@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  background: #27ad85;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
