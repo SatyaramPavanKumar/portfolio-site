@@ -44,7 +44,7 @@ transition={{ duration: 0.6 }}
 
         <p>
           <strong>GitHub:</strong><br />
-          <a
+          <a class="url-color"
             href="https://github.com/SatyaramPavanKumar"
             target="_blank"
             rel="noreferrer"
