@@ -23,16 +23,16 @@ export default function Hero() {
       }}
     >
       <div style={{     maxWidth: "600px",    width: "100%",    flex: 1,}}>
-        <h1 style={{ fontSize: "clamp(36px, 8vw, 64px)", marginBottom: "20px" ,lineHeight: "1.1", }}>
+        <h1 style={{ fontSize: "clamp(36px, 8vw, 64px)", marginBottom: "20px" ,lineHeight: "1.1", color:"#FFFFFF" }}>
           Hi, I'm Satyaram Pavan Kumar Pothina
         </h1>
 
-        <h2 style={{  fontSize: "clamp(20px, 5vw, 32px)",    marginBottom: "20px",    lineHeight: "1.3", }}>
+        <h2 style={{  fontSize: "clamp(20px, 5vw, 32px)",    marginBottom: "20px",    lineHeight: "1.3",  color:"#FFFFFF"}}>
           Senior .NET Full Stack Developer
         </h2>
 
         <p style={{ fontSize: "clamp(16px, 4vw, 20px)",    lineHeight: "1.8", }}>
-          4+ years of building scalable enterprise applications,
+          7+ years of building scalable enterprise applications,
           APIs, workflow systems and real-time business solutions.
         </p>
 

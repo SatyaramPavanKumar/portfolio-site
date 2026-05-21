@@ -35,7 +35,7 @@ export default function Projects() {
   whileInView={{ opacity: 1, y: 0 }}
   viewport={{ once: true, amount: 0.2 }}
   transition={{ duration: 0.7 }}
->      <h2>Featured Enterprise Projects</h2>
+>      <h2 style={{ color:"#FFFFFF", textDecoration:"underline" }}>Featured Enterprise Projects</h2>
 
       {projects.map((project, index) => (
         <motion.div 

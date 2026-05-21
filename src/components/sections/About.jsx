@@ -9,7 +9,7 @@ export default function About() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.7 }}>
-      <h2 className="about-title">Professional Summary</h2>
+      <h2  className="about-title">Professional Summary</h2>
 
       <div className="about-container">
         <div className="about-content">

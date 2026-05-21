@@ -2,7 +2,7 @@
   min-height: 100vh;
   padding: 100px 40px;
   background: linear-gradient(135deg, #1e293b, #0f172a);
-  color: white;
+   color: white;
 }
 
 .project-card {
@@ -10,4 +10,6 @@
   padding: 28px;
   border-radius: 18px;
   background: rgba(255,255,255,0.06);
+
+  
 }
