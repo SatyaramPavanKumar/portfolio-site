@@ -32,7 +32,7 @@ export default function Hero() {
         </h2>
 
         <p style={{ fontSize: "clamp(16px, 4vw, 20px)",    lineHeight: "1.8", }}>
-          7+ years of building scalable enterprise applications,
+          4+ years of building scalable enterprise applications,
           APIs, workflow systems and real-time business solutions.
         </p>
 
