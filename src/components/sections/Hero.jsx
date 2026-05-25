@@ -98,8 +98,8 @@ export default function Hero() {
         </h2>
 
         <p style={{ fontSize: "clamp(16px, 4vw, 20px)", lineHeight: "1.8", fontFamily: "monospace", color: "#00ffcc", textDecoration:"underline" }}>
-          {experience.years}y {experience.months}m {experience.days}d {experience.hours}h {experience.minutes}m{" "}
-          {experience.seconds}s of building scalable enterprise applications, APIs, workflow systems and real-time
+          <h2 style={{color: "#00ffcc"}}>{experience.years}y {experience.months}m {experience.days}d {experience.hours}h {experience.minutes}m{" "}
+          {experience.seconds}s</h2> of building scalable enterprise applications, APIs, workflow systems and real-time
           business solutions.
         </p>
 
