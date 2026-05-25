@@ -2,7 +2,7 @@ import "../../styles/experience.css";
 import { motion } from "framer-motion";
 const experiences = [
   {
-    date: "Feb 2019 - Apr 2022",
+    date: "Jul 2021 - May 2022",
     company: "Infinity Idea Technologies | Vizag",
     role: "Started as Intern → Jr Developer",
   },

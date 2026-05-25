@@ -14,7 +14,7 @@ export default function About() {
       <div className="about-container">
         <div className="about-content">
           <p>
-            Senior .NET Developer with 7 years of experience in designing,
+            Senior .NET Developer with 5 years of experience in designing,
             developing, and maintaining scalable enterprise web applications
             using C#, ASP.NET Core, ASP.NET MVC, Web API, Entity Framework,
             and SQL Server / Oracle.
@@ -42,7 +42,7 @@ export default function About() {
 
         <div className="about-highlights">
           <div className="highlight-card">
-            <h3>7+ Years</h3>
+            <h3>5 Years</h3>
             <p>Enterprise Experience</p>
           </div>
 

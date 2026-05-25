@@ -23,6 +23,28 @@ const projects = [
       "Led technical solution discussions",
       "Managed MMS and NOC Passport modules"
     ]
+  },
+{
+  title: "Quality Control (QC)",
+  duration: "Apr 2024 - Apr 2024",
+  role: "Software Developer",
+  points: [
+    "Developed a dynamic QC workflow system.",
+    "Implemented hierarchical data flow using parent-child relationships.",
+    "Enabled inspectors to redirect queries to relevant departments and officers.",
+    "Built role-based status tracking and workflow history modules.",
+    "Reduced manual ticket handling through automated workflow management."
+  ]
+},  {
+    title: "ESIC Recovery Modules",
+    duration: "Jun 2022 - Apr 2023",
+    role: "Senior Software Developer",
+    points: [
+      "Developed and maintained recovery modules using ASP.NET 3.5, C#, and Visual Studio 2008.",
+      "Supported high-availability ESIC applications with reliable system performance.",
+      "Enhanced application features, performance, and system stability through regular updates.",
+      "Performed debugging, issue fixing, and application maintenance."
+    ]
   }
 ];
 

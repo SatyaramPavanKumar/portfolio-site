@@ -1,0 +1,22 @@
+.buttonStyle,
+.linkButtonStyle {
+  padding: 14px 28px;
+  border-radius: 10px;
+  background: #3b82f6;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+ margin: 2px;
+  width: 240px;
+  text-align: center;
+
+  transition: 0.3s ease;
+}
+
+.buttonStyle:hover,
+.linkButtonStyle:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}

@@ -1,9 +1,11 @@
 import profileimage from "../../assets/7.png";
 import { motion } from "framer-motion";
 import React, { useState, useEffect } from "react";
+import "../../styles/hero.css";
+
 
 export default function Hero() {
-  const startDate = new Date("2019-02-13T10:56:01");
+  const startDate = new Date("2021-07-05T10:56:01");
 
   const [experience, setExperience] = useState({
     years: 0,
@@ -101,20 +103,41 @@ export default function Hero() {
           business solutions.
         </p>
 
-        <button
-          style={{
-            marginTop: "30px",
-            padding: "14px 28px",
-            border: "none",
-            borderRadius: "10px",
-            background: "#3b82f6",
-            color: "white",
-            fontSize: "16px",
-            cursor: "pointer",
-          }}
-        >
-          View Experience
-        </button>
+<div className="buttonContainer">
+
+  <button
+    className="buttonStyle"
+    onClick={() => {
+      document
+        .getElementById("experience")
+        .scrollIntoView({ behavior: "smooth" });
+    }}
+  >
+    View Experience
+  </button>
+
+  <a
+    className="linkButtonStyle"
+    href="/pavan_resume_2026_may.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    View Resume
+  </a>
+
+  <a
+    href="/pavan_pf_history_epfo.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="linkButtonStyle"
+  >
+    View PF History
+  </a>
+
+</div>
+
+
+
       </div>
 
       <img
